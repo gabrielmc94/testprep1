@@ -42,12 +42,23 @@ namespace TestPrepConsole
 
             //STACK
             /*
-             
+                    - Clear():  removes ALL objects from the stack
+                    - Contains():  
+                    - Peek():   returns the object at the top of the stack WITHOUT removing it
+                    - Pop():    Removes and returns the object at the top of the stack
+                    - Push():   inserts an object at the top of the stack
              */
             Stack<double> myStack = new Stack<double>();
 
 
             //DICTIONARY
+            /*
+                    - Add(Key, Value):  adds the specified key and value
+                    - Clear():  clears ALL keys and values
+                    - ContainsKey():
+                    - ContainsValue():
+                    - Remove(Key):  
+             */
             Dictionary<int, string> myDictionary = new Dictionary<int, string>();
 
 
